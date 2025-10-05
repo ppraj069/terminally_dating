@@ -160,6 +160,7 @@ def main():
             if user_id is not None:
                 chat_menu(user_id, username)
 
+
         elif choice == "3":
             console.print("[bold red]Goodbye![/bold red]")
             running = False  # stops the loop
